@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        purple: {
+          light: '#6F3698', 
+          dark: '#22073e', 
+        },
+      },
       fontFamily: {
         sans: ['Roboto', 'sans-serif']
       },
