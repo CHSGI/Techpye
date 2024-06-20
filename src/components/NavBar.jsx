@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import logo from '../assets/logo/logo.svg'
 
 const navigation = [
   { name: 'HOME', href: '#' },
@@ -20,7 +21,7 @@ const NavBar = () => {
               <span className="sr-only">Techpye</span>
               <img
                 className="w-auto h-8"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src={logo}
                 alt=""
               />
             </a>
