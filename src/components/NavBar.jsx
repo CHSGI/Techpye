@@ -4,9 +4,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../assets/logo/logo.svg'
 
 const navigation = [
-  { name: 'HOME', href: '#' },
+  { name: 'HOME', href: '/' },
   { name: 'PROGRAMMES', href: '#' },
-  { name: 'ABOUT US', href: '#' },
+  { name: 'ABOUT US', href: '/about' }, // Updated href
   { name: 'WALL OF FAME', href: '#' },
 ]
 
@@ -17,7 +17,7 @@ const NavBar = () => {
       <header className="absolute inset-x-0 top-0 z-50 bg-white">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Techpye</span>
               <img
                 className="w-auto h-8"
