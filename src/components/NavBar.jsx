@@ -5,8 +5,8 @@ import logo from '../assets/logo/logo.svg'
 
 const navigation = [
   { name: 'HOME', href: '#' },
-  { name: 'OUR COURSE', href: '#' },
-  { name: 'OUR TEAM', href: '#' },
+  { name: 'PROGRAMMES', href: '#' },
+  { name: 'ABOUT US', href: '#' },
   { name: 'WALL OF FAME', href: '#' },
 ]
 
@@ -38,13 +38,33 @@ const NavBar = () => {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-purple-dark">
-                {item.name}
-              </a>
+              item.name === 'PROGRAMMES' ? (
+                <div key={item.name} className="relative group">
+                  <a href={item.href} className="text-sm font-semibold leading-6 text-purple-dark flex items-center">
+                    {item.name}
+                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                  </a>
+                  <div className="absolute left-0 hidden w-48 mt-2 bg-white border border-gray-200 rounded-md shadow-lg group-hover:block">
+                    <a href="#" className="block px-4 py-2 text-sm font-semibold leading-6 text-purple-dark hover:bg-gray-100">The School of Data</a>
+                    <a href="#" className="block px-4 py-2 text-sm font-semibold leading-6 text-purple-dark hover:bg-gray-100">The School of Design</a>
+                    <a href="#" className="block px-4 py-2 text-sm font-semibold leading-6 text-purple-dark hover:bg-gray-100">The School of Management</a>
+                  </div>
+                </div>
+              ) : (
+                <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-purple-dark">
+                  {item.name}
+                </a>
+              )
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="px-2.5 py-2 text-sm font-semibold leading-6 border border-purple-dark text-purple-dark hover:text-white hover:bg-purple-dark">
+          <a href="#" className="text-xl font-semibold leading-6 text-purple-dark flex items-center">
+            Login     
+          </a>
+          <span className="mx-6 text-4xl">|</span> 
+            <a href="#" className="px-2.5 py-2 text-sm font-semibold leading-6 border-t-purple-dark border-b-red border-l-light-blue border-r-light-blue text-purple-dark hover:text-white hover:bg-purple-dark">
               GET INVOLVED <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
