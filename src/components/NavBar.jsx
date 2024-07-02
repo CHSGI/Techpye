@@ -77,7 +77,7 @@ const NavBar = () => {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="w-auto h-8"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  src={logo}
                   alt=""
                 />
               </a>
