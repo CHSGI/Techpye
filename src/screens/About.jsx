@@ -7,22 +7,28 @@ import overlay from "../assets/img/overlay.png";
 import portrait from "../assets/img/portrait.png";
 import linkedin from "../assets/img/linkedin.png" 
 import NavBar from "../components/NavBar";
+import vector1 from "../assets/vectors/Vector-1.png"
+import vector2 from "../assets/vectors/Vector-2.png"
+import vector3 from "../assets/vectors/Vector-3.png"
+import vector4 from "../assets/vectors/Vector-4.png"
+
+
 export default function About() {
   return (
     <>
         <NavBar />
         <section className='relative w-full mt-20 h-aboutHeight'>
             <div className='flex flex-col items-center justify-center w-full h-full bg-blue-600 '>
-                <img src="#" 
+                <img src={vector1}
                  className='absolute w-20 top-6 left-6 lg:w-24'
                 />
-                <img src="#" 
+                <img src={vector4} 
                  className='absolute w-20 right-6 top-72 lg:w-24'
                 />
-                <img src="#" 
+                <img src={vector2} 
                  className='absolute w-16 top-6 right-6 lg:w-20'
                 />
-                <img src="#" 
+                <img src={vector3} 
                  className='absolute w-16 top-72 left-6 lg:w-20'
                 />
 
@@ -141,11 +147,11 @@ export default function About() {
               <img src={portrait} className='w-full '/>
               <div className='flex flex-row items-center h-16 '>
                 <div className='w-4/5 h-full py-1 pr-1 bg-blue-200 '>
-                  <h2 className='ml-2 text-sm font-semibold '>
+                  <h2 className='ml-4 text-sm font-semibold '>
                   Affiong Uno
                   </h2>
-                  <p className='ml-2 text-xs leading-3 '>Co- Founder & Partner </p>
-                  <p className='ml-2 text-xs '>Head of Strategy & Planning </p>
+                  <p className='ml-4 text-xs leading-3 '>Co- Founder & Partner </p>
+                  <p className='ml-4 text-xs '>Head of Strategy & Planning </p>
                 </div>
                 <div className='flex items-center justify-center w-1/5 h-full ml-1 bg-blue-200 cursor-pointer '>
                   <img src={linkedin} className='w-6 '/>
@@ -157,11 +163,11 @@ export default function About() {
               <img src={portrait} className='w-full '/>
               <div className='flex flex-row items-center h-16 '>
                 <div className='w-4/5 h-full py-1 pr-1 bg-blue-200 '>
-                  <h2 className='ml-2 text-sm font-semibold '>
+                  <h2 className='ml-4 text-sm font-semibold '>
                   Affiong Uno
                   </h2>
-                  <p className='ml-2 text-xs leading-3 '>Co- Founder & Partner </p>
-                  <p className='ml-2 text-xs '>Head of Strategy & Planning </p>
+                  <p className='ml-4 text-xs leading-3 '>Co- Founder & Partner </p>
+                  <p className='ml-4 text-xs '>Head of Strategy & Planning </p>
                 </div>
                 <div className='flex items-center justify-center w-1/5 h-full ml-1 bg-blue-200 cursor-pointer '>
                   <img src={linkedin} className='w-6 '/>
@@ -173,11 +179,11 @@ export default function About() {
               <img src={portrait} className='w-full '/>
               <div className='flex flex-row items-center h-16 '>
                 <div className='w-4/5 h-full py-1 pr-1 bg-blue-200 '>
-                  <h2 className='ml-2 text-sm font-semibold '>
+                  <h2 className='ml-4 text-sm font-semibold '>
                   Affiong Uno
                   </h2>
-                  <p className='ml-2 text-xs leading-3 '>Co- Founder & Partner </p>
-                  <p className='ml-2 text-xs '>Head of Strategy & Planning </p>
+                  <p className='ml-4 text-xs leading-3 '>Co- Founder & Partner </p>
+                  <p className='ml-4 text-xs '>Head of Strategy & Planning </p>
                 </div>
                 <div className='flex items-center justify-center w-1/5 h-full ml-1 bg-blue-200 cursor-pointer '>
                   <img src={linkedin} className='w-6 '/>
@@ -191,11 +197,11 @@ export default function About() {
               <img src={portrait} className='w-full '/>
               <div className='flex flex-row items-center h-16 '>
                 <div className='w-4/5 h-full py-1 pr-1 bg-blue-200 '>
-                  <h2 className='ml-2 text-sm font-semibold '>
+                  <h2 className='ml-4 text-sm font-semibold '>
                   Affiong Uno
                   </h2>
-                  <p className='ml-2 text-xs leading-3 '>Co- Founder & Partner </p>
-                  <p className='ml-2 text-xs '>Head of Strategy & Planning </p>
+                  <p className='ml-4 text-xs leading-3 '>Co- Founder & Partner </p>
+                  <p className='ml-4 text-xs '>Head of Strategy & Planning </p>
                 </div>
                 <div className='flex items-center justify-center w-1/5 h-full ml-1 bg-blue-200 cursor-pointer '>
                   <img src={linkedin} className='w-6 '/>
@@ -207,11 +213,11 @@ export default function About() {
               <img src={portrait} className='w-full '/>
               <div className='flex flex-row items-center h-16 '>
                 <div className='w-4/5 h-full py-1 pr-1 bg-blue-200 '>
-                  <h2 className='ml-2 text-sm font-semibold '>
+                  <h2 className='ml-4 text-sm font-semibold '>
                   Affiong Uno
                   </h2>
-                  <p className='ml-2 text-xs leading-3 '>Co- Founder & Partner </p>
-                  <p className='ml-2 text-xs '>Head of Strategy & Planning </p>
+                  <p className='ml-4 text-xs leading-3 '>Co- Founder & Partner </p>
+                  <p className='ml-4 text-xs '>Head of Strategy & Planning </p>
                 </div>
                 <div className='flex items-center justify-center w-1/5 h-full ml-1 bg-blue-200 cursor-pointer '>
                   <img src={linkedin} className='w-6 '/>
@@ -223,11 +229,11 @@ export default function About() {
               <img src={portrait} className='w-full '/>
               <div className='flex flex-row items-center h-16 '>
                 <div className='w-4/5 h-full py-1 pr-1 bg-blue-200 '>
-                  <h2 className='ml-2 text-sm font-semibold '>
+                  <h2 className='ml-4 text-sm font-semibold '>
                   Affiong Uno
                   </h2>
-                  <p className='ml-2 text-xs leading-3 '>Co- Founder & Partner </p>
-                  <p className='ml-2 text-xs '>Head of Strategy & Planning </p>
+                  <p className='ml-4 text-xs leading-3 '>Co- Founder & Partner </p>
+                  <p className='ml-4 text-xs '>Head of Strategy & Planning </p>
                 </div>
                 <div className='flex items-center justify-center w-1/5 h-full ml-1 bg-blue-200 cursor-pointer '>
                   <img src={linkedin} className='w-6 '/>

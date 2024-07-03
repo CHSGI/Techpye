@@ -17,6 +17,10 @@ export default {
       },
       gridTemplateColumns: {
         '70/30': '70% 28%',
+      },
+      height:{
+        aboutHeight: "403px",
+        posterHeight: "525px"
       }
     },
   },
