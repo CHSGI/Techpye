@@ -47,7 +47,7 @@ const NavBar = () => {
                     </svg>
                   </a>
                   <div className="absolute left-0 hidden w-48 mt-2 bg-white border border-gray-200 rounded-md shadow-lg group-hover:block">
-                    <a href="#" className="block px-4 py-2 text-sm font-semibold leading-6 text-purple-dark hover:bg-gray-100">The School of Data</a>
+                    <a href="/schoolOfData" className="block px-4 py-2 text-sm font-semibold leading-6 text-purple-dark hover:bg-gray-100">The School of Data</a>
                     <a href="#" className="block px-4 py-2 text-sm font-semibold leading-6 text-purple-dark hover:bg-gray-100">The School of Design</a>
                     <a href="#" className="block px-4 py-2 text-sm font-semibold leading-6 text-purple-dark hover:bg-gray-100">The School of Management</a>
                   </div>
