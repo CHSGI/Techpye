@@ -1,27 +1,21 @@
-import React from 'react'
-import "./SchoolOfData.css"
-import NavBar from "../components/NavBar.jsx"
-import shape from "../assets/img/Group 12042.png"
-
-import Contact from "../components/Contact.jsx"
-
-// import Swiper core and required modules
+import React from 'react';
+import NavBar from '../components/NavBar';
+import shape2 from "../assets/img/Group2.png";
+import Courses from '../components/Courses';
+import Include from '../components/Include';
+import Contact from '../components/Contact';
 
 
-import Include from '../components/Include.jsx'
-import Courses from '../components/Courses.jsx'
-
-export default function () {
-    
+export default function SchoolOfDesign() {
   return (
     <>
         <section>
             <NavBar />
 
-            <div className='w-full h-auto lg:h-aboutHeight bg-blue-200 mt-20 px-5 py-8 flex items-center justify-between flex-col lg:flex-row'>
+            <div className='w-full h-auto lg:h-aboutHeight bg-orange-200 mt-20 px-5 py-8 flex items-center justify-between flex-col lg:flex-row'>
                 <div className=' py-3 lg:mr-10'>
                     <h2 className=' text-2xl font-semibold mb-3 '>
-                        The School of Data
+                        The School of Design
                     </h2>
                     <p className=' text-xs leading-5'>
                         Discover the meaning of data and learn essential skills that will help you 
@@ -31,7 +25,7 @@ export default function () {
                         data systems, and predicting future trends.
                     </p>
                 </div>
-                <img src={shape}  className=' py-4 lg:py-0 px-3 lg:w-2/3'/>
+                <img src={shape2}  className=' py-4 lg:py-0 px-3 lg:w-2/3'/>
             </div>
         </section>
 
@@ -47,7 +41,7 @@ export default function () {
 
             <div className=' lg:mx-16 md:mx-5 mx-2 flex flex-col lg:flex-row items-center justify-between'>
             
-                    <div className=' w-4/6 md:w-1/2 lg:w-1/4 px-10 py-7 my-8 mx-auto md:mx-0 bg-blue-200'>
+                    <div className=' w-4/6 md:w-1/2 lg:w-1/3 px-10 py-7 my-8 mx-auto md:mx-0 bg-orange-200'>
                         <div className=' mt-8 p-1 w-20 text-center text-xs mb-5 text-green-500 font-semibold rounded-3xl bg-white'> 
                             Available</div>
                         <h2 className=' text-base font-semibold'>
@@ -68,7 +62,7 @@ export default function () {
                             REGISTER FOR COURSE</a>
                     </div>
                     
-                    <div className=' w-4/6 md:w-1/2 lg:w-1/4 px-10 py-7 my-8 mx-auto md:mx-0 bg-blue-200'>
+                    <div className=' w-4/6 md:w-1/2 lg:w-1/3 px-10 py-7 my-8 mx-auto md:mx-0 lg:mx-8 bg-orange-200'>
                         <div className=' mt-8 p-1 w-20 text-center text-xs mb-5 text-green-500 font-semibold rounded-3xl bg-white'> 
                             Available</div>
                         <h2 className=' text-base font-semibold'>
@@ -89,7 +83,7 @@ export default function () {
                             REGISTER FOR COURSE</a>
                     </div>
                     
-                    <div className=' w-4/6 md:w-1/2 lg:w-1/4 px-10 py-7 my-8 mx-auto md:mx-0 bg-blue-200'>
+                    <div className=' w-4/6 md:w-1/2 lg:w-1/3 px-10 py-7 my-8 mx-auto md:mx-0 bg-orange-200'>
                         <div className=' mt-8 p-1 w-20 text-center text-xs mb-5 text-green-500 font-semibold rounded-3xl bg-white'> 
                             Available</div>
                         <h2 className=' text-base font-semibold'>
@@ -119,4 +113,4 @@ export default function () {
         <Contact />
     </>
   )
-};
+}
