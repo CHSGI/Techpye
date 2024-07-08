@@ -18,10 +18,10 @@ const App = () => {
       <div className="m-auto container-xl lg:container">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {/* <!-- Text Column --> */}
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center pl-20">
             <h2 className="text-2xl font-bold mb-4">The Perfect Time To Start is Now!</h2>
             <p className="mb-4 text-sm pr-20">We empower individuals with the skills and support they need to thrive, leveling up globally and upscaling their abilities to meet modern demands. Our goal is to provide equal opportunities for everyone, especially those without access to these skills, by offering global standard training.</p>
-            <button className="px-4 py-2 mt-5 font-semibold border-blue-500 border-2 text-blue-500 rounded w-1/4 text-xs">TAKE A SKILL TEST</button>
+            <button className="px-4 py-2 mt-5 font-semibold border-blue-500 border-2 text-blue-500 rounded w-1/3 text-xs">TAKE A SKILL TEST</button>
           </div>
           {/* <!-- Image Column --> */}
           <div className="flex items-center justify-center">
