@@ -1,20 +1,20 @@
-import React from 'react';
-import NavBar from '../components/NavBar';
-import shape2 from "../assets/img/Group2.png";
-import Courses from '../components/Courses';
-import Include from '../components/Include';
-import Contact from '../components/Contact';
+import React from 'react'
+import NavBar from "../components/NavBar.jsx";
+import shape3 from "../assets/img/Group 12115.png";
+import Courses from '../components/Courses.jsx';
+import Include from '../components/Include.jsx';
+import Contact from '../components/Contact.jsx';
 
-
-export default function SchoolOfDesign() {
+export default function SchoolOfManagement() {
   return (
     <>
         <NavBar />
+
         <section>
-            <div className='w-full h-auto lg:h-aboutHeight bg-orange-200 mt-20 px-5 py-8 flex items-center justify-between flex-col lg:flex-row'>
+            <div className='w-full h-auto lg:h-aboutHeight bg-blue-100 mt-20 px-5 py-8 flex items-center justify-between flex-col lg:flex-row'>
                 <div className=' py-3 lg:mr-10'>
                     <h2 className=' text-2xl font-semibold mb-3 '>
-                        The School of Design
+                        The School of Management
                     </h2>
                     <p className=' text-xs leading-5'>
                         Discover the meaning of data and learn essential skills that will help you 
@@ -24,23 +24,23 @@ export default function SchoolOfDesign() {
                         data systems, and predicting future trends.
                     </p>
                 </div>
-                <img src={shape2}  className=' py-4 lg:py-0 px-3 lg:w-2/3'/>
+                <img src={shape3}  className=' py-4 lg:py-0 px-3 lg:w-2/3'/>
             </div>
         </section>
 
         <section className=' w-full h-auto md:h-auto'>
             <div className=' w-full h-14 bg-white flex flex-row items-center'>
                 <div className='w-1/3 md:w-1/4 lg:w-1/5 h-full text-sm font-semibold cursor-pointer hover:bg-slate-300 duration-700 border-b-2 border-blue-700 flex items-center justify-center'>
-                    UI/UX 
+                    Product Management
                 </div>
                 <div className='w-1/3 lg:w-1/5 h-full text-sm font-semibold cursor-pointer hover:bg-slate-300 duration-700 border-b-2 flex items-center justify-center'>
-                    Brand Identity
+                    Data Science
                 </div>
             </div>
 
             <div className=' lg:mx-16 md:mx-5 mx-2 flex flex-col lg:flex-row items-center justify-between'>
             
-                    <div className=' w-4/6 md:w-1/2 lg:w-1/3 px-10 py-7 my-8 mx-auto md:mx-0 bg-orange-200'>
+                    <div className=' w-4/6 md:w-1/2 lg:w-1/3 px-10 py-7 my-8 mx-auto md:mx-0 bg-blue-100'>
                         <div className=' mt-8 p-1 w-20 text-center text-xs mb-5 text-green-500 font-semibold rounded-3xl bg-white'> 
                             Available</div>
                         <h2 className=' text-base font-semibold'>
@@ -61,7 +61,7 @@ export default function SchoolOfDesign() {
                             REGISTER FOR COURSE</a>
                     </div>
                     
-                    <div className=' w-4/6 md:w-1/2 lg:w-1/3 px-10 py-7 my-8 mx-auto md:mx-0 lg:mx-8 bg-orange-200'>
+                    <div className=' w-4/6 md:w-1/2 lg:w-1/3 px-10 py-7 my-8 mx-auto md:mx-0 lg:mx-8 bg-blue-100'>
                         <div className=' mt-8 p-1 w-20 text-center text-xs mb-5 text-green-500 font-semibold rounded-3xl bg-white'> 
                             Available</div>
                         <h2 className=' text-base font-semibold'>
@@ -82,7 +82,7 @@ export default function SchoolOfDesign() {
                             REGISTER FOR COURSE</a>
                     </div>
                     
-                    <div className=' w-4/6 md:w-1/2 lg:w-1/3 px-10 py-7 my-8 mx-auto md:mx-0 bg-orange-200'>
+                    <div className=' w-4/6 md:w-1/2 lg:w-1/3 px-10 py-7 my-8 mx-auto md:mx-0 bg-blue-100'>
                         <div className=' mt-8 p-1 w-20 text-center text-xs mb-5 text-green-500 font-semibold rounded-3xl bg-white'> 
                             Available</div>
                         <h2 className=' text-base font-semibold'>
@@ -108,7 +108,7 @@ export default function SchoolOfDesign() {
         <Courses />
 
         <Include />
-        
+
         <Contact />
     </>
   )

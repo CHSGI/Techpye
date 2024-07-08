@@ -6,6 +6,7 @@ import About from './screens/About.jsx'
 import './index.css'
 import SchoolOfData from './screens/SchoolOfData.jsx'
 import SchoolOfDesign from './screens/SchoolOfDesign.jsx'
+import SchoolOfManagement from './screens/SchoolOfManagement.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/about" element={<About />} />
         <Route path="/schoolOfData" element={<SchoolOfData />} />
         <Route path="/schoolOfDesign" element={<SchoolOfDesign />} />
+        <Route path="/schoolOfManagement" element={<SchoolOfManagement />} />
       </Routes>
     </Router>
   </React.StrictMode>,
