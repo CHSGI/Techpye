@@ -67,7 +67,7 @@ export default function Courses() {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className=' w-4/5 lg:w-4/5 px-10 py-7 mx-auto bg-orange-300'>
+                <div className=' w-4/5 lg:w-4/5 px-10 py-7 mx-auto bg-orange-200'>
                     <div className=' mt-3 p-1 w-20 text-center text-xs mb-3 text-green-500 font-semibold rounded-3xl bg-white'> 
                         Available</div>
                      <h2 className=' text-sm font-semibold'>
