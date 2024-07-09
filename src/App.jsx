@@ -6,6 +6,7 @@ import pallet from "./assets/img/pallete.png"
 import Contact from "./components/Contact.jsx"
 import compass from "./assets/img/compass.png"
 import Quote from "./components/Quote.jsx"
+import  Footer from "./components/Footer.jsx";
 
 const App = () => {
   return (
@@ -13,7 +14,6 @@ const App = () => {
       <Navbar />
       <Hero />
 
-    {/* <!-- Browse Jobs --> */}
     <section className="px-4 py-10" style={{ backgroundColor: '#C3D8FB' }}>
       <div className="m-auto container-xl lg:container">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
@@ -28,7 +28,7 @@ const App = () => {
             <img
               src={girl}
               alt="Job Listing"
-              className="rounded-xl shadow-md"
+              className="rounded-xl"
             />
           </div>
         </div>
@@ -79,6 +79,7 @@ const App = () => {
     <Quote text={"Tech skills have become essential for individuals and businesses alike, Join us on ths exciting journey of learning and growth"} text2={"“Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important ”"} author={"Bill Gates"} />
 
     <Contact />
+    <Footer />
     </>
   )
 }
