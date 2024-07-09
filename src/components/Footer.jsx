@@ -18,13 +18,13 @@ export default function Footer() {
 
             <form action="" className=' w-full lg:w-2/3 text-sm mx-auto p-2 h-auto lg:h-24 mt-5 border-2 rounded-md border-white flex flex-col lg:flex-row items-center'>
                     <div className=' flex flex-col text-white w-full lg:w-2/6 my-2 lg:my-0'>
-                        <label htmlFor="Name">Name</label>
-                        <input type="text" name='Name' placeholder='Type Your name here' className=' mt-1 bg-transparent border-0'/>
+                        <label htmlFor="name">Name</label>
+                        <input id="name" type="text" name='Name' placeholder='Type Your name here' className=' mt-1 bg-transparent border-0' autoComplete='name'/>
                     </div>
                     <div className=' border-white border-2 h-5/6 my-auto mx-2 hidden lg:block'/>
                     <div className=' flex flex-col text-white w-full lg:w-2/6 ml-2 my-2 lg:my-0'>
-                        <label htmlFor="Email">E-mail</label>
-                        <input type="email" name='Email' placeholder='Type your E-mail here' className=' mt-1 bg-transparent border-0'/>
+                        <label htmlFor="email">E-mail</label>
+                        <input id="email" type="email" name='Email' placeholder='Type your E-mail here' className=' mt-1 bg-transparent border-0' autoComplete='email'/>
                     </div>
                     <button className=' w-1/3 lg:w-1/6 my-3 lg:my-0 h-10 bg-blue-900 text-white ml-5'>
                         Subscribe</button>
