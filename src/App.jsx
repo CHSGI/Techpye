@@ -6,6 +6,7 @@ import pallet from "./assets/img/pallete.png"
 import Contact from "./components/Contact.jsx"
 import compass from "./assets/img/compass.png"
 import Quote from "./components/Quote.jsx"
+import Footer from "./components/Footer.jsx"
 
 const App = () => {
   return (
@@ -79,6 +80,7 @@ const App = () => {
     <Quote text={"Tech skills have become essential for individuals and businesses alike, Join us on ths exciting journey of learning and growth"} text2={"“Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important ”"} author={"Bill Gates"} />
 
     <Contact />
+    <Footer />
     </>
   )
 }
