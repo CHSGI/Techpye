@@ -59,7 +59,7 @@ const App = () => {
     </section>
 
     <section className=" w-full h-auto flex flex-col lg:flex-row">
-      <div className="w-full lg:w-1/2 h-full py-20 lg:py-2 flex flex-col justify-center items-start pl-20">
+      <div className="w-full lg:w-1/2 h-full py-20 lg:py-2 flex flex-col justify-center items-start pl-20 my-auto">
         <h2 className=" text-xl font-semibold mb-3">
         Don’t be Left Out
         </h2>
