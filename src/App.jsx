@@ -6,6 +6,7 @@ import pallet from "./assets/img/pallete.png"
 import Contact from "./components/Contact.jsx"
 import compass from "./assets/img/compass.png"
 import Quote from "./components/Quote.jsx"
+import Footer from "./components/Footer.jsx"
 
 const App = () => {
   return (
