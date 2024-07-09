@@ -4,6 +4,7 @@ import shape2 from "../assets/img/Group2.png";
 import Courses from '../components/Courses';
 import Include from '../components/Include';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 
 export default function SchoolOfDesign() {
@@ -110,6 +111,7 @@ export default function SchoolOfDesign() {
         <Include />
         
         <Contact />
+        <Footer />
     </>
   )
 }

@@ -10,6 +10,7 @@ import Contact from "../components/Contact.jsx"
 
 import Include from '../components/Include.jsx'
 import Courses from '../components/Courses.jsx'
+import Footer from '../components/Footer.jsx'
 
 export default function () {
     
@@ -117,6 +118,7 @@ export default function () {
         <Include />
         
         <Contact />
+        <Footer />
     </>
   )
 };

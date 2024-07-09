@@ -11,6 +11,7 @@ import vector1 from "../assets/vectors/Vector-1.png"
 import vector2 from "../assets/vectors/Vector-2.png"
 import vector3 from "../assets/vectors/Vector-3.png"
 import vector4 from "../assets/vectors/Vector-4.png"
+import Footer from "../components/Footer";
 
 
 export default function About() {
@@ -242,6 +243,7 @@ export default function About() {
             </div>
 
           </div>
+          <Footer />
         </section>
     </>
   )

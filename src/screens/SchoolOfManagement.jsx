@@ -4,6 +4,7 @@ import shape3 from "../assets/img/Group 12115.png";
 import Courses from '../components/Courses.jsx';
 import Include from '../components/Include.jsx';
 import Contact from '../components/Contact.jsx';
+import Footer from '../components/Footer.jsx';
 
 export default function SchoolOfManagement() {
   return (
@@ -110,6 +111,7 @@ export default function SchoolOfManagement() {
         <Include />
 
         <Contact />
+        <Footer />
     </>
   )
 }
