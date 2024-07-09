@@ -6,12 +6,13 @@ import logo from '../assets/logo/logo.svg'
 const navigation = [
   { name: 'HOME', href: '/' },
   { name: 'PROGRAMMES', href: '#' },
-  { name: 'ABOUT US', href: '/about' }, // Updated href
+  { name: 'ABOUT US', href: '/about' },
   { name: 'WALL OF FAME', href: '#' },
 ]
 
 const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [dropdownOpen, setDropdownOpen] = useState(false)
 
   return (
       <header className="absolute inset-x-0 top-0 z-50 bg-white">
@@ -49,7 +50,7 @@ const NavBar = () => {
                   <div className="absolute left-0 hidden w-48 mt-2 bg-white border border-gray-200 rounded-md shadow-lg group-hover:block">
                     <a href="/schoolOfData" className="block px-4 py-2 text-sm font-semibold leading-6 text-purple-dark hover:bg-gray-100">The School of Data</a>
                     <a href="/schoolOfDesign" className="block px-4 py-2 text-sm font-semibold leading-6 text-purple-dark hover:bg-gray-100">The School of Design</a>
-                    <a href="/SchoolOfManagement" className="block px-4 py-2 text-sm font-semibold leading-6 text-purple-dark hover:bg-gray-100">The School of Management</a>
+                    <a href="/schoolOfManagement" className="block px-4 py-2 text-sm font-semibold leading-6 text-purple-dark hover:bg-gray-100">The School of Management</a>
                   </div>
                 </div>
               ) : (
@@ -94,13 +95,34 @@ const NavBar = () => {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="py-6 space-y-2">
                   {navigation.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 rounded-lg text-purple-dark hover:bg-gray-50"
-                    >
-                      {item.name}
-                    </a>
+                    item.name === 'PROGRAMMES' ? (
+                      <div key={item.name} className="relative">
+                        <button
+                          onClick={() => setDropdownOpen(!dropdownOpen)}
+                          className="block w-full px-3 py-2 -mx-3 text-base font-semibold leading-7 rounded-lg text-purple-dark hover:bg-gray-50 text-left flex items-center justify-start"
+                        >
+                          {item.name}
+                          <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                          </svg>
+                        </button>
+                        {dropdownOpen && (
+                          <div className="mt-2 space-y-2">
+                            <a href="/schoolOfData" className="block px-4 py-2 text-sm font-semibold leading-6 text-purple-dark hover:bg-gray-100">The School of Data</a>
+                            <a href="/schoolOfDesign" className="block px-4 py-2 text-sm font-semibold leading-6 text-purple-dark hover:bg-gray-100">The School of Design</a>
+                            <a href="/SchoolOfManagement" className="block px-4 py-2 text-sm font-semibold leading-6 text-purple-dark hover:bg-gray-100">The School of Management</a>
+                          </div>
+                        )}
+                      </div>
+                    ) : (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 rounded-lg text-purple-dark hover:bg-gray-50"
+                      >
+                        {item.name}
+                      </a>
+                    )
                   ))}
                 </div>
                 <div className="py-6">

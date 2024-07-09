@@ -31,25 +31,25 @@ export default function Footer() {
             </form>
 
             <div className=' mt-8 flex flex-col lg:flex-row items-start justify-between'>
-                <a href="" className='mx-auto lg:mx-0 lg:my-auto'><img src={logo} className=' w-40 lg:mr-10 invert py-3 block' /></a>
+                <a href="/" className='mx-auto lg:mx-0 lg:my-auto'><img src={logo} className=' w-40 lg:mr-10 invert py-3 block' /></a>
                 <div className=' w-full lg:w-1/4 p-2 flex flex-col mt-5'>
                     <h2 className=' text-sm  text-white font-semibold mb-4'>
                     COMPANY
                     </h2>
-                    <a href="" className=' text-white text-xs my-1 hover:text-slate-400'>PROGRAMES</a>
-                    <a href="" className=' text-white text-xs my-1 hover:text-slate-400'>ABOUT US</a>
-                    <a href="" className=' text-white text-xs my-1 hover:text-slate-400'>WALL OF FAME</a>
-                    <a href="" className=' text-white text-xs my-1 hover:text-slate-400'>LOGIN</a>
-                    <a href="" className=' text-white text-xs my-1 hover:text-slate-400'>GET INVOLVED</a>
+                    <a href="/programs" className=' text-white text-xs my-1 hover:text-slate-400'>PROGRAMS</a>
+                    <a href="/about" className=' text-white text-xs my-1 hover:text-slate-400'>ABOUT US</a>
+                    <a href="/wall-of-fame" className=' text-white text-xs my-1 hover:text-slate-400'>WALL OF FAME</a>
+                    <a href="/login" className=' text-white text-xs my-1 hover:text-slate-400'>LOGIN</a>
+                    <a href="/get-involved" className=' text-white text-xs my-1 hover:text-slate-400'>GET INVOLVED</a>
                 </div>
                 <div className=' w-full lg:w-1/4 p-2 flex flex-col mt-5'>
                     <h2 className=' text-sm  text-white font-semibold mb-4'>
                     SCHOOL
                     </h2>
-                    <a href="" className=' text-white text-xs my-1 hover:text-slate-400'>SCHOOL OF DATA</a>
-                    <a href="" className=' text-white text-xs my-1 hover:text-slate-400'>SCHOOL OF DEVELOPMENT</a>
-                    <a href="" className=' text-white text-xs my-1 hover:text-slate-400'>SCHOOL  DESIGN</a>
-                    <a href="" className=' text-white text-xs my-1 hover:text-slate-400'>SCHOOL OF BUSINESS & MANAGEMENT</a>
+                    <a href="/schoolOfData" className=' text-white text-xs my-1 hover:text-slate-400'>SCHOOL OF DATA</a>
+                    <a href="/schoolOfDevelopment" className=' text-white text-xs my-1 hover:text-slate-400'>SCHOOL OF DEVELOPMENT</a>
+                    <a href="/schoolOfDesign" className=' text-white text-xs my-1 hover:text-slate-400'>SCHOOL OF DESIGN</a>
+                    <a href="/SchoolOfManagement" className=' text-white text-xs my-1 hover:text-slate-400'>SCHOOL OF BUSINESS & MANAGEMENT</a>
                 </div>
                 <div className=' w-full lg:w-1/4 p-2 flex flex-col justify-between items-start mt-5'>
                     
@@ -57,16 +57,16 @@ export default function Footer() {
                         <h2 className=' text-sm  text-white font-semibold mb-4'>
                         CONTACT
                         </h2>
-                        <a href="" className=' text-white text-xs my-1 hover:text-slate-400'>(+234) 7038960562</a>
-                        <a href="" className=' text-white text-xs my-1 hover:text-slate-400'>HELLO@TECHPYE.COM</a>
+                        <a href="tel:+2347038960562" className=' text-white text-xs my-1 hover:text-slate-400'>(+234) 7038960562</a>
+                        <a href="mailto:hello@techpye.com" className=' text-white text-xs my-1 hover:text-slate-400'>HELLO@TECHPYE.COM</a>
                     </div>
                     <div className=' flex flex-row justify-between items-start w-4/5 mt-7'>
                         <p className='text-white text-xs'>
                         Follow us
                         </p>
-                        <a href=""><img src={In} className=' w-5 hover:opacity-50' /></a>
-                        <a href=""><img src={X} className=' w-5 hover:opacity-50' /></a>
-                        <a href=""><img src={Fb} className=' w-5 hover:opacity-50' /></a>
+                        <a href="https://www.linkedin.com"><img src={In} className=' w-5 hover:opacity-50' /></a>
+                        <a href="https://www.twitter.com"><img src={X} className=' w-5 hover:opacity-50' /></a>
+                        <a href="https://www.facebook.com"><img src={Fb} className=' w-5 hover:opacity-50' /></a>
                     </div>
                 </div>
             </div>
