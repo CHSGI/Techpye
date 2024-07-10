@@ -26,7 +26,7 @@ export default function Footer() {
                         <label htmlFor="Email">E-mail</label>
                         <input type="email" name='Email' placeholder='Type your E-mail here' className=' mt-1 bg-transparent border-0'/>
                     </div>
-                    <button className=' w-1/3 lg:w-1/6 my-3 lg:my-0 h-10 bg-blue-900 text-white ml-5'>
+                    <button className=' w-1/3 lg:w-1/6 my-3 lg:my-0 h-10 bg-blue-900 hover:opacity-70 duration-500 text-white ml-5'>
                         Subscribe</button>
             </form>
 

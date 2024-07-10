@@ -16,7 +16,7 @@ export default function Contact() {
                     </p>
                     <img src={envelope} className='p-10 pl-2'/>
                 </div>
-                <form action="" className=' w-full lg:w-1/2 pt-9 lg:pt-20 lg:px-20 px-8'>
+                <form action="" className=' w-full lg:w-1/2 pt-9 lg:pt-20 lg:px-20 px-8 flex flex-col items-end'>
                     <div className=' w-full h-1/6 bg-white rounded-xl mr p-3 pl-6 flex flex-col'>
                         <label htmlFor="name" className='w-full h-1/2 text-sm font-thin'>NAME</label>
                         <input type="text" placeholder='Type your Name here' name='name' className=' text-sm h-1/2 border-b-2 w-5/6' />
@@ -31,7 +31,9 @@ export default function Contact() {
                         <input type="text" placeholder='Type your Phone Number here' name='phone' className=' text-sm h-1/2 border-b-2 w-5/6' />
                     </div>
 
-                    <input type="submit" value="CONTACT ME" className=' w-3/6 h-8 border-2 border-white mt-14 mb-10 text-xs text-white cursor-pointer ml-44'/>
+                    {/* <input type="submit" value="CONTACT ME" className=' w-3/6 h-8 border-2 border-white mt-14 mb-10 text-xs text-white cursor-pointer ml-44'/> */}
+                    <button className=' w-1/3 h-8 border-2 text-white border-white hover:opacity-50 duration-700 my-8 text-xs cursor-pointer block'>
+                        CONTACT ME</button>
                 </form>
             </div>
         </section>
