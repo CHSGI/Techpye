@@ -41,8 +41,8 @@ export default function Courses() {
             navigation
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
-            onSwiper={""}
-            onSlideChange={""}
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log('slide change')}
             >
             <SwiperSlide>
                 <div className=' w-4/5 lg:w-4/5 px-10 py-7 mx-auto bg-blue-200 mb-5'>
