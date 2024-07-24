@@ -61,11 +61,11 @@ const NavBar = () => {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-xl font-semibold leading-6 text-purple-dark flex items-center">
+          <a href="/login" className="text-xl font-semibold leading-6 text-purple-dark flex items-center">
             Login     
           </a>
           <span className="mx-6 text-4xl">|</span> 
-            <a href="#" className="px-2.5 py-2 text-sm font-semibold leading-6 border-t-purple-dark border-b-red border-l-light-blue border-r-light-blue text-purple-dark hover:text-white hover:bg-purple-dark">
+            <a href="/signup" className="px-2.5 py-2 text-sm font-semibold leading-6 border-t-purple-dark border-b-red border-l-light-blue border-r-light-blue text-purple-dark hover:text-white hover:bg-purple-dark">
               GET INVOLVED <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
